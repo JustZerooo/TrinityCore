@@ -14,7 +14,7 @@ if(WIN32)
   set(Boost_USE_STATIC_LIBS        ON)
   set(Boost_USE_MULTITHREADED      ON)
   set(Boost_USE_STATIC_RUNTIME     OFF)
-
+  SET(BOOST_MIN_VERSION "1.74.0")
   add_definitions(-D_WIN32_WINNT=0x0601)
 endif()
 
